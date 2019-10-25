@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        .button {
+            width: 50px;
+            height: 30px;
+            background-color: pink;
+            color: black;
+        }
+    </style>
+    <script src="calcu.js"></script>
+</head>
+<body align="center">
+
+<input type="text" id="show" value="" style="background-color: lightgray; height: 30px"/>
+<br>
+<br>
+<br>
+<input type="button" class="button" value="1" onclick="setV(1)">　
+<input type="button" class="button" value="2" onclick="setV(2)">　
+<input type="button" class="button" value="3" onclick="setV(3)">　
+<input type="button" class="button" value="+" onclick="js('+')">
+<input type="button" class="button" value="*" onclick="js('*')">
+<br>
+<br>
+<input type="button" class="button" value="4" onclick="setV(4)">　
+<input type="button" class="button" value="5" onclick="setV(5)">　
+<input type="button" class="button" value="6" onclick="setV(6)">　
+<input type="button" class="button" value="-" onclick="js('-')">
+<input type="button" class="button" value="/" onclick="js('/')">
+<br>
+<br>
+<input type="button" class="button" value="7" onclick="setV(7)">　
+<input type="button" class="button" value="8" onclick="setV(8)">　
+<input type="button" class="button" value="9" onclick="setV(9)">　
+<input type="button" class="button" value="0" onclick="setV(0)">
+<input type="button" class="button" value="=" onclick="get()">
+<br>
+
+</body>
+</html>

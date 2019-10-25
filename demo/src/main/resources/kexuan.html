@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>刘克暄个人主页</title>
+    <h1 style="font-family: 'Wawati SC'; color: hotpink; margin-left: 20px; font-size: 50px">刘克暄的魔法小屋</h1>
+</head>
+<body background="ll.jpeg" style="background-size: 1100px">
+<br>
+<br>
+<div style="font-family:'Yuanti SC'; color: darkorange; font-size: 18px">小程序
+    <ul>
+        <li>
+            <p style="font-size: 15px">
+                <a href="http://localhost:63342/demo/calcu.html?_ijt=65f7q1t9b26fpki7ka155t4bse" target="_blank" style="text-decoration: none">
+                    计算器</a>
+            </p>
+        </li>
+        <li>
+            <p style="font-size: 15px">
+                <a href="http://localhost:63342/demo/test.html?_ijt=r28i3f7iv5hnhc9vcvja2a0438" target="_blank" style="text-decoration: none">
+                    古诗</a>
+            </p>
+        </li>
+        <li>
+            <p style="font-size: 15px">
+                <a href="http://localhost:63342/demo/animation.html?_ijt=4u7a3uog2s0fiej74p7bd3bgsa" target="_blank" style="text-decoration: none">
+                    小动画</a>
+            </p>
+        </li>
+    </ul>
+</div>
+<br>
+<br>
+<div style="font-family:'Yuanti SC'; color: palevioletred; font-size: 18px">我喜欢的音乐
+    <ul>
+        <li>
+            <p style="font-size: 15px">牵丝戏
+                <audio id="a1" src="音乐/牵丝戏.mp3" controls="controls" preload="true" style="width: 300px;height: 25px; position: absolute; left:150px"></audio>
+            </p>
+        </li>
+        <li>
+            <p style="font-size: 15px">长生诀
+                <audio id="a2" src="音乐/长生诀.mp3" controls="controls" preload="true" style="width: 300px;height: 25px; position: absolute; left:150px"></audio>
+            </p>
+        </li>
+        <li>
+            <p style="font-size: 15px">九九八十一
+                <audio id="a3" src="音乐/九九八十一.mp3" controls="controls" preload="true" style="width: 300px;height: 25px; position: absolute; left:150px"></audio>
+            </p>
+        </li>
+        <li>
+            <p style="font-size: 15px">上邪
+                <audio id="a4" src="音乐/上邪.mp3" controls="controls" preload="true" style="width: 300px;height: 25px; position: absolute; left:150px"></audio>
+            </p>
+        </li>
+    </ul>
+</div>
+<script src="kexuan.js"></script>
+<div style="position: absolute; left:500px">
+    <button onclick="pauseAuto()" style="font-size: 12px; color: blueviolet; border: 0px">关闭背景音乐</button>
+</div>
+<div id="dong" style="position: absolute; top:40px; right:80px">
+    <img id="sy" src="shuye.png" style="width: 40px; height:50px" onclick="move()">
+</div>
+</body>
+<iframe src="12.mp3" allow="autoplay" style="display:none" id="ade"></iframe>
+</html>
